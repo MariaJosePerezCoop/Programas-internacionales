@@ -7,4 +7,5 @@ plotly
 squarify
 seaborn
 os
-PIL
+Image
+RendererAgg
