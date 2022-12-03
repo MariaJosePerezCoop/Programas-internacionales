@@ -5,7 +5,6 @@ import streamlit as st
 from PIL import Image
 import squarify
 import seaborn as sns
-import os
 from matplotlib.backends.backend_agg import RendererAgg
 
 
@@ -174,7 +173,7 @@ with h2:
     p = plt.gcf()
     p.gca().add_artist(plt.Circle( (0,0), 0.7, color='white'))
 
-    st.pyplot(imag2)
+    
 
 st.markdown('___')
 
