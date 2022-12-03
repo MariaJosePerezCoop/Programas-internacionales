@@ -6,5 +6,5 @@ matplotlib
 plotly
 squarify
 seaborn
-Image
-RendererAgg
+image
+rendereragg
